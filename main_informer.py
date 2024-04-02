@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description='[Informer] Long Sequences Forecast
 # parser.add_argument('--data', type=str, required=True, default='F:\\pycharm\\Informer2020-main\\data\\ETDataset-main\\ETT-small', help='data')
 parser.add_argument('--model', default='informer')
 parser.add_argument('--data', default='ETTh1')
-parser.add_argument('--root_path', type=str, default=/kaggle/working/Informer2020/scripts/ETTh1.sh', help='root path of the data file')
+parser.add_argument('--root_path', type=str, default=/kaggle/working/Informer2020/scripts', help='root path of the data file')
 parser.add_argument('--data_path', type=str, default='ETTh1.csv', help='data file')    
 parser.add_argument('--features', type=str, default='M', help='forecasting task, options:[M, S, MS]; M:multivariate predict multivariate, S:univariate predict univariate, MS:multivariate predict univariate')
 parser.add_argument('--target', type=str, default='OT', help='target feature in S or MS task')
